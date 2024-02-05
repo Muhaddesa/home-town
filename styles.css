@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    
+}
+
+img {
+    width: 100px;
+}
+.hero{
+    background-image: url("images/buda.jpg");
+    background-size: cover;
+    height: 400px;
+    margin-top: 0px;
+    color: #A8DADC;
+    display: block;
+}
+.hero h1{
+    padding-top: 50px;
+}
+#title{
+    display: inline-block;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    line-height: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+#bamyan{
+    display: block;
+    background-color: black;
+   padding-top: 5px;
+   padding-right: 10px;
+   border-radius: 5px;
+   width: 300px;
+   
+  
+   margin: auto;
+   font-weight: regular;
+   font-size: 12px;
+   color: white;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.item img{
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 5px;
+   border-radius: 50%;
+}
+#sport{
+  height: 100px;
+}
+
+
+.text-container {
+  margin-left: 10px;
+}
+
+.text-container h6,
+.text-container p {
+  margin: 10p;
+  
+}
+.text-container p{
+    font-size: 12px;
+}
+.guide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 20px;
+    padding: 20px;
+    width: 400px;
+    background-color: lightblue;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    margin-left: 400px;
+    height: 200px;
+    text-align: center;
+
+
+   
+}
+.card{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto; 
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px;  
+}
+.metadata{
+    padding-right: 10px;
+}
